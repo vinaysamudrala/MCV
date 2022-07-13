@@ -34,6 +34,7 @@ for x in fn:
     e=0
     f=0
     g=0
+    total=0
     tree = ET.parse(x)
     root = tree.getroot()
     id_list = []
